@@ -18,10 +18,25 @@ To manage service:
 5. If you're not an "fancy-UI" person, you can use PowerShell to do the same:
     1. [Install node.js](https://nodejs.org/en/download/)
     2. Using PowerShell and npm, install Azure CLI
-            npm install -g azure-cli
+    
+        ```
+        npm install -g azure-cli
+        ```
+    
     3. Login to the Azure account
-            azure login
+    
+        ```
+        azure login
+        ```
+    
     4. Now you can stop scraper with this command
-            azure webapp stop CSharpScraper CSharpScraper
+    
+        ```
+        azure webapp stop CSharpScraper CSharpScraper
+        ```
+    
     5. And start again the app with this command
-            azure webapp start CSharpScraper CSharpScraper
+    
+        ```
+        azure webapp start CSharpScraper CSharpScraper
+        ```
