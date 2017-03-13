@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Http;
 
-namespace CSharpCrawler
+namespace CSharpScraper
 {
     public class WebApiApplication : HttpApplication
     {

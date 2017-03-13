@@ -1,4 +1,4 @@
-﻿namespace CSharpCrawler.Models
+﻿namespace CSharpScraper.Models
 {
     public class Product
     {

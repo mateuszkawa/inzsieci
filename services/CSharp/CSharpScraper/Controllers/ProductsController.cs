@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Web.Http;
-using CSharpCrawler.Models;
+using CSharpScraper.Models;
 using HtmlAgilityPack;
 using Swashbuckle.Swagger.Annotations;
 
-namespace CSharpCrawler.Controllers
+namespace CSharpScraper.Controllers
 {
     public class ProductsController : ApiController
     {
