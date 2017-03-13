@@ -10,6 +10,7 @@ Currently only MediaMarkt searches are working, others are WIP.
 # Start/stop service
 
 To manage service:
+
 1. Create DreamSpark account with [this](http://weka.pwr.edu.pl/2897992,41.dhtml)
 2. I'm not sure how it's working, but to be safe, [buy yourself Azure license (it's free for students)](https://e5.onthehub.com/WebStore/OfferingDetails.aspx?o=98a24997-f5b7-e611-9423-b8ca3a5db7a1&ws=98c060e9-b28b-e011-969d-0030487d8897&vsro=8)
 3. Send me your account's email so I can add you to the project as an administrator.
