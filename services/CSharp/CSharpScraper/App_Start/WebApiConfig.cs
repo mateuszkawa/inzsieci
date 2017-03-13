@@ -1,7 +1,7 @@
 ﻿using System.Net.Http.Headers;
 using System.Web.Http;
 
-namespace CSharpCrawler
+namespace CSharpScraper
 {
     public static class WebApiConfig
     {
