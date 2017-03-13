@@ -16,21 +16,12 @@ To manage service:
 3. Send me your account's email so I can add you to the project as an administrator.
 4. If everything goes well, you can login into Azure portal and start/stop service by yourself.
 5. If you're not an "fancy-UI" person, you can use PowerShell to do the same:
-  1. [Install node.js](https://nodejs.org/en/download/)
-  2. Using PowerShell and npm, install Azure CLI
-  ```
-  npm install -g azure-cli
-  ```
-  
-  3. Login to the Azure account
-  ```
-  azure login
-  ```
-  4. Now you can stop scraper with this command
-  ```
-  azure webapp stop CSharpScraper CSharpScraper
-  ```
-  5. And start again the app with this command
-  ```
-  azure webapp start CSharpScraper CSharpScraper
-  ```
+    1. [Install node.js](https://nodejs.org/en/download/)
+    2. Using PowerShell and npm, install Azure CLI
+        npm install -g azure-cli
+    3. Login to the Azure account
+        azure login
+    4. Now you can stop scraper with this command
+        azure webapp stop CSharpScraper CSharpScraper
+    5. And start again the app with this command
+        azure webapp start CSharpScraper CSharpScraper
