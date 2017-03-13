@@ -21,6 +21,7 @@ To manage service:
   ```
   npm install -g azure-cli
   ```
+  
   3. Login to the Azure account
   ```
   azure login
