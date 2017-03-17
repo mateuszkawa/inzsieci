@@ -19,7 +19,7 @@ namespace CSharpScraper.Controllers
         [SwaggerOperation("Get")]
         public Product Get(string name)
         {
-            var result = new List<Product>()
+            var result = new List<Product>
             {
                 GetMediaMarkt(name),
                 GetSaturn(name),
@@ -30,7 +30,7 @@ namespace CSharpScraper.Controllers
             if(result.Count(p => p.Name != null && p.Url != null) > 0)
                 return result.Where(p => p.Name != null && p.Url != null).OrderBy(p => p.Price).ToList()[0];
             else
-                return new Product() { Name = null, Price = 0.00m, Url = null };
+                return new Product { Name = null, Price = 0.00m, Url = null };
         }
 
         private Product GetMediaMarkt(string name)
@@ -82,7 +82,7 @@ namespace CSharpScraper.Controllers
             {
                 telemetryClient.TrackException(ex);
             }
-            return new Product() { Name = null, Price = 0.00m, Url = null };
+            return new Product { Name = null, Price = 0.00m, Url = null };
         }
 
         private Product GetSaturn(string name)
@@ -134,7 +134,7 @@ namespace CSharpScraper.Controllers
             {
                 telemetryClient.TrackException(ex);
             }
-            return new Product() { Name = null, Price = 0.00m, Url = null };
+            return new Product { Name = null, Price = 0.00m, Url = null };
         }
         private Product GetEuro(string name)
         {
@@ -187,7 +187,7 @@ namespace CSharpScraper.Controllers
             {
                 telemetryClient.TrackException(ex);
             }
-            return new Product() { Name = null, Price = 0.00m, Url = null };
+            return new Product { Name = null, Price = 0.00m, Url = null };
         }
         private Product GetNeonet(string name)
         {
@@ -233,7 +233,7 @@ namespace CSharpScraper.Controllers
             {
                 telemetryClient.TrackException(ex);
             }
-            return new Product() { Name = null, Price = 0.00m, Url = null };
+            return new Product { Name = null, Price = 0.00m, Url = null };
         }
     }
 }
