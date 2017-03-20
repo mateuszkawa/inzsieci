@@ -1,13 +1,13 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Linq;
+using System.Globalization;
+using System.Collections.Generic;
+using System.Text.RegularExpressions;
 using System.Web.Http;
 using CSharpScraper.Models;
 using HtmlAgilityPack;
 using Swashbuckle.Swagger.Annotations;
-using System.Linq;
-using System;
-using System.Globalization;
 using Microsoft.ApplicationInsights;
-using System.Text.RegularExpressions;
 
 namespace CSharpScraper.Controllers
 {
@@ -38,7 +38,7 @@ namespace CSharpScraper.Controllers
             {
                 var result = new List<Product>();
                 var webget = new HtmlWeb();
-                var doc = webget.Load("https://mediamarkt.pl/search?sort=price_asc&query[querystring]=" + name.Replace("+", "%2B").Replace(' ', '+'));
+                var doc = webget.Load("https://mediamarkt.pl/search?sort=price_asc&limit=100&query[querystring]=" + name.Replace("+", "%2B").Replace(' ', '+'));
                 var products = doc.DocumentNode.SelectNodes("//*[@itemtype='http://schema.org/Product']");
 
                 if (products != null)
@@ -88,7 +88,7 @@ namespace CSharpScraper.Controllers
             {
                 var result = new List<Product>();
                 var webget = new HtmlWeb();
-                var doc = webget.Load("https://saturn.pl/search?sort=price_asc&query[querystring]=" + name.Replace("+", "%2B").Replace(' ', '+'));
+                var doc = webget.Load("https://saturn.pl/search?sort=price_asc&limit=100&query[querystring]=" + name.Replace("+", "%2B").Replace(' ', '+'));
                 var products = doc.DocumentNode.SelectNodes("//*[@itemtype='http://schema.org/Product']");
 
                 if (products != null)
@@ -195,7 +195,7 @@ namespace CSharpScraper.Controllers
             {
                 var result = new List<Product>();
                 var webget = new HtmlWeb();
-                var doc = webget.Load("https://www.neonet.pl/catalogsearch/result/?dir=asc&order=price&q=" + name.Replace("+", "%2B").Replace(' ', '+'));
+                var doc = webget.Load("https://www.neonet.pl/catalogsearch/result/?dir=asc&limit=60&order=price&q=" + name.Replace("+", "%2B").Replace(' ', '+'));
                 var products = doc.DocumentNode.SelectNodes("//li");
 
                 if (products != null)
@@ -241,7 +241,7 @@ namespace CSharpScraper.Controllers
         {
             try
             {
-                var result = GetNeonetDebug(name).ToList();
+                var result = GetNeonetDebug(name);
                 result.AddRange(GetMediaMarktDebug(name));
                 result.AddRange(GetSaturnDebug(name));
                 result.AddRange(GetEuroDebug(name));
@@ -254,13 +254,13 @@ namespace CSharpScraper.Controllers
             }
             return new List<Product> { new Product { Price = 0.00m, Url = null } };
         }
-        private IEnumerable<Product> GetMediaMarktDebug(string name)
+        private List<Product> GetMediaMarktDebug(string name)
         {
             try
             {
                 var result = new List<Product>();
                 var webget = new HtmlWeb();
-                var doc = webget.Load("https://mediamarkt.pl/search?sort=price_asc&query[querystring]=" + name.Replace("+", "%2B").Replace(' ', '+'));
+                var doc = webget.Load("https://mediamarkt.pl/search?sort=price_asc&limit=100&query[querystring]=" + name.Replace("+", "%2B").Replace(' ', '+'));
                 var products = doc.DocumentNode.SelectNodes("//*[@itemtype='http://schema.org/Product']");
 
                 if (products != null)
@@ -304,13 +304,13 @@ namespace CSharpScraper.Controllers
             }
             return new List<Product> { new Product { Price = 0.00m, Url = null }};
         }
-        private IEnumerable<Product> GetSaturnDebug(string name)
+        private List<Product> GetSaturnDebug(string name)
         {
             try
             {
                 var result = new List<Product>();
                 var webget = new HtmlWeb();
-                var doc = webget.Load("https://saturn.pl/search?sort=price_asc&query[querystring]=" + name.Replace("+", "%2B").Replace(' ', '+'));
+                var doc = webget.Load("https://saturn.pl/search?sort=price_asc&limit=100&query[querystring]=" + name.Replace("+", "%2B").Replace(' ', '+'));
                 var products = doc.DocumentNode.SelectNodes("//*[@itemtype='http://schema.org/Product']");
 
                 if (products != null)
@@ -354,7 +354,7 @@ namespace CSharpScraper.Controllers
             }
             return new List<Product> { new Product { Price = 0.00m, Url = null }};
         }
-        private IEnumerable<Product> GetEuroDebug(string name)
+        private List<Product> GetEuroDebug(string name)
         {
             try
             {
@@ -411,13 +411,13 @@ namespace CSharpScraper.Controllers
             }
             return new List<Product> { new Product { Price = 0.00m, Url = null }};
         }
-        private IEnumerable<Product> GetNeonetDebug(string name)
+        private List<Product> GetNeonetDebug(string name)
         {
             try
             {
                 var result = new List<Product>();
                 var webget = new HtmlWeb();
-                var doc = webget.Load("https://www.neonet.pl/catalogsearch/result/?dir=asc&order=price&q=" + name.Replace("+", "%2B").Replace(' ', '+'));
+                var doc = webget.Load("https://www.neonet.pl/catalogsearch/result/?dir=asc&limit=60&order=price&q=" + name.Replace("+", "%2B").Replace(' ', '+'));
                 var products = doc.DocumentNode.SelectNodes("//li");
 
                 if (products != null)
