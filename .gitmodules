@@ -1,0 +1,3 @@
+[submodule "services/RubyOnRails"]
+	path = services/RubyOnRails
+	url = git@github.com:pwr-wilgosz/pin.git
