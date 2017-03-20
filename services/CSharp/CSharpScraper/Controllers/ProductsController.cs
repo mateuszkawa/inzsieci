@@ -5,8 +5,8 @@ using HtmlAgilityPack;
 using Swashbuckle.Swagger.Annotations;
 using System.Linq;
 using System;
-using Microsoft.ApplicationInsights;
 using System.Globalization;
+using Microsoft.ApplicationInsights;
 using System.Text.RegularExpressions;
 
 namespace CSharpScraper.Controllers
@@ -27,10 +27,9 @@ namespace CSharpScraper.Controllers
                 GetNeonet(name)
             };
 
-            if(result.Count(p => p.Name != null && p.Url != null) > 0)
-                return result.Where(p => p.Name != null && p.Url != null).OrderBy(p => p.Price).ToList()[0];
-            else
-                return new Product { Name = null, Price = 0.00m, Url = null };
+            return result.Count(p => p.Url != null) > 0 ? 
+                result.Where(p => p.Url != null).OrderBy(p => p.Price).ToList()[0] : 
+                new Product { Price = 0.00m, Url = null };
         }
 
         private Product GetMediaMarkt(string name)
@@ -39,7 +38,7 @@ namespace CSharpScraper.Controllers
             {
                 var result = new List<Product>();
                 var webget = new HtmlWeb();
-                var doc = webget.Load("https://mediamarkt.pl/search?query[querystring]=" + name.Replace(' ', '+'));
+                var doc = webget.Load("https://mediamarkt.pl/search?sort=price_asc&query[querystring]=" + name.Replace("+", "%2B").Replace(' ', '+'));
                 var products = doc.DocumentNode.SelectNodes("//*[@itemtype='http://schema.org/Product']");
 
                 if (products != null)
@@ -68,7 +67,6 @@ namespace CSharpScraper.Controllers
                         {
                             result.Add(new Product
                             {
-                                Name = productName,
                                 Price = decimal.Parse(price),
                                 Url = "https://mediamarkt.pl" + url
                             });
@@ -82,16 +80,15 @@ namespace CSharpScraper.Controllers
             {
                 telemetryClient.TrackException(ex);
             }
-            return new Product { Name = null, Price = 0.00m, Url = null };
+            return new Product { Price = 0.00m, Url = null };
         }
-
         private Product GetSaturn(string name)
         {
             try
             {
                 var result = new List<Product>();
                 var webget = new HtmlWeb();
-                var doc = webget.Load("https://saturn.pl/search?query[querystring]=" + name.Replace(' ', '+'));
+                var doc = webget.Load("https://saturn.pl/search?sort=price_asc&query[querystring]=" + name.Replace("+", "%2B").Replace(' ', '+'));
                 var products = doc.DocumentNode.SelectNodes("//*[@itemtype='http://schema.org/Product']");
 
                 if (products != null)
@@ -120,7 +117,6 @@ namespace CSharpScraper.Controllers
                         {
                             result.Add(new Product
                             {
-                                Name = productName,
                                 Price = decimal.Parse(price),
                                 Url = "https://saturn.pl" + url
                             });
@@ -134,7 +130,7 @@ namespace CSharpScraper.Controllers
             {
                 telemetryClient.TrackException(ex);
             }
-            return new Product { Name = null, Price = 0.00m, Url = null };
+            return new Product { Price = 0.00m, Url = null };
         }
         private Product GetEuro(string name)
         {
@@ -142,7 +138,7 @@ namespace CSharpScraper.Controllers
             {
                 var result = new List<Product>();
                 var webget = new HtmlWeb();
-                var doc = webget.Load("http://www.euro.com.pl/search.bhtml?keyword=" + name.Replace(' ', '+'));
+                var doc = webget.Load("http://www.euro.com.pl/search,d3.bhtml?keyword=" + name.Replace("+", "%2B").Replace(' ', '+'));
                 var products = doc.DocumentNode.SelectNodes("//*[@class='product-row']");
 
                 if (products != null) // lista itemow
@@ -152,12 +148,14 @@ namespace CSharpScraper.Controllers
                         var nameNode = product.SelectSingleNode(".//*[@class='product-name']");
                         var price = Regex.Replace(product.SelectSingleNode(".//*[@class='price-normal selenium-price-normal']").InnerText.Split(new[] { "&nbsp" }, StringSplitOptions.None)[0].Trim().Replace(',','.'), @"\s+", "");
 
-                        result.Add(new Product
+                        if(nameNode.SelectSingleNode(".//*").InnerText.Trim().ToLower().Contains(name.ToLower()))
                         {
-                            Name = nameNode.SelectSingleNode(".//*").InnerText.Trim(),
-                            Price = decimal.Parse(price, CultureInfo.InvariantCulture),
-                            Url = "https://www.euro.com.pl" + nameNode.SelectSingleNode(".//*").Attributes["href"].Value
-                        });
+                            result.Add(new Product
+                            {
+                                Price = decimal.Parse(price, CultureInfo.InvariantCulture),
+                                Url = "https://www.euro.com.pl" + nameNode.SelectSingleNode(".//*").Attributes["href"].Value
+                            });
+                        }
                     }
                 }
                 else // pojedynczy item
@@ -168,15 +166,17 @@ namespace CSharpScraper.Controllers
                     {
                         foreach (var product in products)
                         {
-                            var nameNode = product.SelectSingleNode(".//*[@class='selenium-product-name']");
+                            var nameNode = product.SelectSingleNode(".//*[@class='selenium-product-name']").InnerText.Trim();
                             var price = Regex.Replace(product.SelectSingleNode(".//*[@class='price-normal selenium-price-normal']").InnerText.Split(new[] { "&nbsp" }, StringSplitOptions.None)[0].Trim().Replace(',', '.'), @"\s+", "");
 
-                            result.Add(new Product
+                            if (nameNode.ToLower().Contains(name.ToLower()))
                             {
-                                Name = nameNode.InnerText.Trim(),
-                                Price = decimal.Parse(price, CultureInfo.InvariantCulture),
-                                Url = "https://www.euro.com.pl" + webget.ResponseUri.AbsolutePath
-                            });
+                                result.Add(new Product
+                                {
+                                    Price = decimal.Parse(price, CultureInfo.InvariantCulture),
+                                    Url = "https://www.euro.com.pl" + webget.ResponseUri.AbsolutePath
+                                });
+                            }
                         }
                     }
                 }
@@ -187,7 +187,7 @@ namespace CSharpScraper.Controllers
             {
                 telemetryClient.TrackException(ex);
             }
-            return new Product { Name = null, Price = 0.00m, Url = null };
+            return new Product { Price = 0.00m, Url = null };
         }
         private Product GetNeonet(string name)
         {
@@ -195,7 +195,7 @@ namespace CSharpScraper.Controllers
             {
                 var result = new List<Product>();
                 var webget = new HtmlWeb();
-                var doc = webget.Load("https://www.neonet.pl/catalogsearch/result/?q=" + name.Replace(' ', '+'));
+                var doc = webget.Load("https://www.neonet.pl/catalogsearch/result/?dir=asc&order=price&q=" + name.Replace("+", "%2B").Replace(' ', '+'));
                 var products = doc.DocumentNode.SelectNodes("//li");
 
                 if (products != null)
@@ -218,7 +218,6 @@ namespace CSharpScraper.Controllers
                             {
                                 result.Add(new Product
                                 {
-                                    Name = nameNode.SelectSingleNode(".//*").InnerText.Trim(),
                                     Price = decimal.Parse(price, CultureInfo.InvariantCulture),
                                     Url = nameNode.SelectSingleNode(".//*").Attributes["href"].Value,
                                 });
@@ -233,7 +232,230 @@ namespace CSharpScraper.Controllers
             {
                 telemetryClient.TrackException(ex);
             }
-            return new Product { Name = null, Price = 0.00m, Url = null };
+            return new Product { Price = 0.00m, Url = null };
         }
+
+        #region Debug
+        // GET debug/api/products/{name}
+        public IEnumerable<Product> GetDebug(string name)
+        {
+            try
+            {
+                var result = GetNeonetDebug(name).ToList();
+                result.AddRange(GetMediaMarktDebug(name));
+                result.AddRange(GetSaturnDebug(name));
+                result.AddRange(GetEuroDebug(name));
+
+                return result;
+            }
+            catch (Exception ex)
+            {
+                telemetryClient.TrackException(ex);
+            }
+            return new List<Product> { new Product { Price = 0.00m, Url = null } };
+        }
+        private IEnumerable<Product> GetMediaMarktDebug(string name)
+        {
+            try
+            {
+                var result = new List<Product>();
+                var webget = new HtmlWeb();
+                var doc = webget.Load("https://mediamarkt.pl/search?sort=price_asc&query[querystring]=" + name.Replace("+", "%2B").Replace(' ', '+'));
+                var products = doc.DocumentNode.SelectNodes("//*[@itemtype='http://schema.org/Product']");
+
+                if (products != null)
+                {
+                    foreach (var product in products)
+                    {
+                        var price = "";
+                        var productName = "";
+                        var url = "";
+
+                        var priceNode = product.SelectSingleNode(".//*[@itemtype='http://schema.org/Offer']");
+                        if (priceNode == null) // lista itemow
+                        {
+                            price = Regex.Replace(product.SelectSingleNode(".//*[@itemprop='price']").Attributes["content"].Value.Replace('.', ','), @"\s+", "");
+                            productName = product.SelectSingleNode(".//*[@class='js-product-name']").InnerText.Trim();
+                            url = product.SelectSingleNode(".//*[@class='js-product-name']").Attributes["href"].Value;
+                        }
+                        else // pojedynczy item
+                        {
+                            price = Regex.Replace(priceNode.SelectSingleNode(".//*[@itemprop='price']").Attributes["content"].Value.Replace('.', ','), @"\s+", "");
+                            productName = product.SelectSingleNode(".//*[@class='m-productDescr_headline']").InnerText.Trim();
+                            url = webget.ResponseUri.AbsolutePath;
+                        }
+
+                        if (productName.ToLower().Contains(name.ToLower()))
+                        {
+                            result.Add(new Product
+                            {
+                                Price = decimal.Parse(price),
+                                Url = "https://mediamarkt.pl" + url
+                            });
+                        }
+                    }
+                    if (result.Count > 0)
+                        return result.OrderBy(p => p.Price).ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                telemetryClient.TrackException(ex);
+            }
+            return new List<Product> { new Product { Price = 0.00m, Url = null }};
+        }
+        private IEnumerable<Product> GetSaturnDebug(string name)
+        {
+            try
+            {
+                var result = new List<Product>();
+                var webget = new HtmlWeb();
+                var doc = webget.Load("https://saturn.pl/search?sort=price_asc&query[querystring]=" + name.Replace("+", "%2B").Replace(' ', '+'));
+                var products = doc.DocumentNode.SelectNodes("//*[@itemtype='http://schema.org/Product']");
+
+                if (products != null)
+                {
+                    foreach (var product in products)
+                    {
+                        var price = "";
+                        var productName = "";
+                        var url = "";
+
+                        var priceNode = product.SelectSingleNode(".//*[@itemtype='http://schema.org/Offer']");
+                        if (priceNode == null) // lista itemow
+                        {
+                            price = Regex.Replace(product.SelectSingleNode(".//*[@itemprop='price']").Attributes["content"].Value.Replace('.', ','), @"\s+", "");
+                            productName = product.SelectSingleNode(".//*[@class='js-product-name']").InnerText.Trim();
+                            url = product.SelectSingleNode(".//*[@class='js-product-name']").Attributes["href"].Value;
+                        }
+                        else // pojedynczy item
+                        {
+                            price = Regex.Replace(priceNode.SelectSingleNode(".//*[@itemprop='price']").Attributes["content"].Value.Replace('.', ','), @"\s+", "");
+                            productName = product.SelectSingleNode(".//*[@class='m-productDescr_headline']").InnerText.Trim();
+                            url = webget.ResponseUri.AbsolutePath;
+                        }
+
+                        if (productName.ToLower().Contains(name.ToLower()))
+                        {
+                            result.Add(new Product
+                            {
+                                Price = decimal.Parse(price),
+                                Url = "https://saturn.pl" + url
+                            });
+                        }
+                    }
+                    if (result.Count > 0)
+                        return result.OrderBy(p => p.Price).ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                telemetryClient.TrackException(ex);
+            }
+            return new List<Product> { new Product { Price = 0.00m, Url = null }};
+        }
+        private IEnumerable<Product> GetEuroDebug(string name)
+        {
+            try
+            {
+                var result = new List<Product>();
+                var webget = new HtmlWeb();
+                var doc = webget.Load("http://www.euro.com.pl/search,d3.bhtml?keyword=" + name.Replace("+", "%2B").Replace(' ', '+'));
+                var products = doc.DocumentNode.SelectNodes("//*[@class='product-row']");
+
+                if (products != null) // lista itemow
+                {
+                    foreach (var product in products)
+                    {
+                        var nameNode = product.SelectSingleNode(".//*[@class='product-name']");
+                        var price = Regex.Replace(product.SelectSingleNode(".//*[@class='price-normal selenium-price-normal']").InnerText.Split(new[] { "&nbsp" }, StringSplitOptions.None)[0].Trim().Replace(',', '.'), @"\s+", "");
+
+                        if (nameNode.SelectSingleNode(".//*").InnerText.Trim().ToLower().Contains(name.ToLower()))
+                        {
+                            result.Add(new Product
+                            {
+                                Price = decimal.Parse(price, CultureInfo.InvariantCulture),
+                                Url = "https://www.euro.com.pl" + nameNode.SelectSingleNode(".//*").Attributes["href"].Value
+                            });
+                        }
+                    }
+                }
+                else // pojedynczy item
+                {
+                    products = doc.DocumentNode.SelectNodes("//*[@class='product-box']");
+
+                    if (products != null)
+                    {
+                        foreach (var product in products)
+                        {
+                            var nameNode = product.SelectSingleNode(".//*[@class='selenium-product-name']").InnerText.Trim();
+                            var price = Regex.Replace(product.SelectSingleNode(".//*[@class='price-normal selenium-price-normal']").InnerText.Split(new[] { "&nbsp" }, StringSplitOptions.None)[0].Trim().Replace(',', '.'), @"\s+", "");
+
+                            if (nameNode.ToLower().Contains(name.ToLower()))
+                            {
+                                result.Add(new Product
+                                {
+                                    Price = decimal.Parse(price, CultureInfo.InvariantCulture),
+                                    Url = "https://www.euro.com.pl" + webget.ResponseUri.AbsolutePath
+                                });
+                            }
+                        }
+                    }
+                }
+                if (result.Count > 0)
+                    return result.OrderBy(p => p.Price).ToList();
+            }
+            catch (Exception ex)
+            {
+                telemetryClient.TrackException(ex);
+            }
+            return new List<Product> { new Product { Price = 0.00m, Url = null }};
+        }
+        private IEnumerable<Product> GetNeonetDebug(string name)
+        {
+            try
+            {
+                var result = new List<Product>();
+                var webget = new HtmlWeb();
+                var doc = webget.Load("https://www.neonet.pl/catalogsearch/result/?dir=asc&order=price&q=" + name.Replace("+", "%2B").Replace(' ', '+'));
+                var products = doc.DocumentNode.SelectNodes("//li");
+
+                if (products != null)
+                {
+                    foreach (var product in products)
+                    {
+                        var nameNode = product.SelectSingleNode(".//*[@class='product-name']");
+
+                        if (nameNode != null)
+                        {
+                            var priceNode = product.SelectSingleNode(".//*[@class='special-price']");
+                            if (priceNode == null)
+                                priceNode = product.SelectSingleNode(".//*[@class='price']");
+                            else
+                                priceNode = priceNode.SelectSingleNode(".//*[@class='price']");
+
+                            var price = Regex.Replace(priceNode.InnerText.Split('z')[0].Trim().Replace(',', '.'), @"\s+", "");
+
+                            if (nameNode.SelectSingleNode(".//*").InnerText.Trim().ToLower().Contains(name))
+                            {
+                                result.Add(new Product
+                                {
+                                    Price = decimal.Parse(price, CultureInfo.InvariantCulture),
+                                    Url = nameNode.SelectSingleNode(".//*").Attributes["href"].Value,
+                                });
+                            }
+                        }
+                    }
+                    if (result.Count > 0)
+                        return result.OrderBy(p => p.Price).ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                telemetryClient.TrackException(ex);
+            }
+            return new List<Product> { new Product { Price = 0.00m, Url = null }};
+        }
+        #endregion
     }
 }

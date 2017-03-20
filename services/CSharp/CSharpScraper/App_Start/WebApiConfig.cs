@@ -13,9 +13,15 @@ namespace CSharpScraper
             config.MapHttpAttributeRoutes();
 
             config.Routes.MapHttpRoute(
+                name: "DefaultDebugApi",
+                routeTemplate: "debug/api/{controller}/{name}",
+                defaults: new { name = RouteParameter.Optional, controller = "Products", action = "GetDebug" }
+            );
+
+            config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{name}",
-                defaults: new { name = RouteParameter.Optional }
+                defaults: new { name = RouteParameter.Optional, controller = "Products", action = "Get" }
             );
         }
     }
