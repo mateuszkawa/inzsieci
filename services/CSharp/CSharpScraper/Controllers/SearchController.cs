@@ -15,7 +15,7 @@ namespace CSharpScraper.Controllers
     {
         private TelemetryClient telemetryClient = new TelemetryClient();
 
-        // GET api/products/{name}
+        // GET search?value={value}
         [SwaggerOperation("Get")]
         public Product Get([FromUri]string value)
         {
@@ -236,7 +236,7 @@ namespace CSharpScraper.Controllers
         }
 
         #region Debug
-        // GET debug/api/products/{name}
+        // GET debug/search?value={value}
         public IEnumerable<Product> GetDebug([FromUri]string value)
         {
             try
