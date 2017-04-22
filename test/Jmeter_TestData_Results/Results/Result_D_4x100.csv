@@ -1,0 +1,801 @@
+timeStamp;elapsed;label;responseCode;responseMessage;threadName;dataType;success;failureMessage;bytes;sentBytes;grpThreads;allThreads;URL;Latency;SampleCount;ErrorCount;IdleTime;Connect
+20.04.2017 18:32;8643;HTTP Request;500;Internal Server Error;Grupa wątków 1-4;text;false;;276;267;4;4;http://frontanddisp-kishin.rhcloud.com/search;8643;1;1;0;176
+20.04.2017 18:32;9021;HTTP Request;500;Internal Server Error;Grupa wątków 1-3;text;false;;276;266;4;4;http://frontanddisp-kishin.rhcloud.com/search;9021;1;1;0;177
+20.04.2017 18:32;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:32;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:32;16011;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;16011;1;1;0;184
+20.04.2017 18:32;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:32;19274;HTTP Request;200;OK;Grupa wątków 1-2;text;true;;314;236;4;4;http://frontanddisp-kishin.rhcloud.com/search;19274;1;0;0;182
+20.04.2017 18:32;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:32;13390;HTTP Request;200;OK;Grupa wątków 1-3;text;true;;327;238;4;4;http://frontanddisp-kishin.rhcloud.com/search;13390;1;0;0;158
+20.04.2017 18:33;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:32;16591;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;255;4;4;http://frontanddisp-kishin.rhcloud.com/search;16591;1;1;0;159
+20.04.2017 18:33;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:32;11294;HTTP Request;500;Internal Server Error;Grupa wątków 1-1;text;false;;276;256;4;4;http://frontanddisp-kishin.rhcloud.com/search;11294;1;1;0;158
+2017/04/20 18:33:05.017;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:32;14709;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;245;4;4;http://frontanddisp-kishin.rhcloud.com/search;14709;1;1;0;158
+20.04.2017 18:33;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:33;11097;HTTP Request;200;OK;Grupa wątków 1-4;text;true;;345;253;4;4;http://frontanddisp-kishin.rhcloud.com/search;11097;1;0;0;159
+2017/04/20 18:33:15.053;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:33:06.019;14957;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;230;4;4;http://frontanddisp-kishin.rhcloud.com/search;14957;1;1;0;155
+20.04.2017 18:33;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:33;26435;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;239;4;4;http://frontanddisp-kishin.rhcloud.com/search;26435;1;1;0;9159
+20.04.2017 18:33;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:33;16242;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;259;4;4;http://frontanddisp-kishin.rhcloud.com/search;16242;1;1;0;159
+20.04.2017 18:33;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:33:16.053;16102;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;257;4;4;http://frontanddisp-kishin.rhcloud.com/search;16102;1;1;0;158
+20.04.2017 18:33;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:33;5996;HTTP Request;500;Internal Server Error;Grupa wątków 1-3;text;false;;276;239;4;4;http://frontanddisp-kishin.rhcloud.com/search;5996;1;1;0;160
+20.04.2017 18:33;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:33;16871;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;259;4;4;http://frontanddisp-kishin.rhcloud.com/search;16871;1;1;0;159
+20.04.2017 18:33;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:33;8252;HTTP Request;200;OK;Grupa wątków 1-4;text;true;;315;243;4;4;http://frontanddisp-kishin.rhcloud.com/search;8252;1;0;0;158
+20.04.2017 18:33;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:33;15339;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;15339;1;1;0;164
+20.04.2017 18:33;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:33;14721;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;262;4;4;http://frontanddisp-kishin.rhcloud.com/search;14721;1;1;0;159
+20.04.2017 18:33;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:33;15128;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;260;4;4;http://frontanddisp-kishin.rhcloud.com/search;15128;1;1;0;158
+20.04.2017 18:33;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:33;15565;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;255;4;4;http://frontanddisp-kishin.rhcloud.com/search;15565;1;1;0;158
+20.04.2017 18:33;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:33;14324;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;255;4;4;http://frontanddisp-kishin.rhcloud.com/search;14324;1;1;0;180
+20.04.2017 18:34;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:33;13442;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;240;4;4;http://frontanddisp-kishin.rhcloud.com/search;13442;1;1;0;166
+20.04.2017 18:34;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:33;13310;HTTP Request;500;Internal Server Error;Grupa wątków 1-1;text;false;;276;267;4;4;http://frontanddisp-kishin.rhcloud.com/search;13310;1;1;0;172
+20.04.2017 18:34;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:33;14235;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;258;4;4;http://frontanddisp-kishin.rhcloud.com/search;14235;1;1;0;157
+20.04.2017 18:34;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:34;16760;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;273;4;4;http://frontanddisp-kishin.rhcloud.com/search;16760;1;1;0;170
+20.04.2017 18:34;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:34;18364;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;256;4;4;http://frontanddisp-kishin.rhcloud.com/search;18364;1;1;0;158
+2017/04/20 18:34:24.088;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:34;16586;HTTP Request;200;OK;Grupa wątków 1-1;text;true;;309;235;4;4;http://frontanddisp-kishin.rhcloud.com/search;16586;1;0;0;179
+20.04.2017 18:34;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:34;15896;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;260;4;4;http://frontanddisp-kishin.rhcloud.com/search;15896;1;1;0;157
+20.04.2017 18:34;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:34;19135;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;262;4;4;http://frontanddisp-kishin.rhcloud.com/search;19135;1;1;0;162
+20.04.2017 18:34;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:34:25.089;17496;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;262;4;4;http://frontanddisp-kishin.rhcloud.com/search;17496;1;1;0;157
+20.04.2017 18:34;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:34;27203;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;258;4;4;http://frontanddisp-kishin.rhcloud.com/search;27203;1;1;0;157
+2017/04/20 18:34:55.077;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:34;29898;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;29898;1;1;0;158
+2017/04/20 18:35:01.004;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:34;24823;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;258;4;4;http://frontanddisp-kishin.rhcloud.com/search;24823;1;1;0;157
+20.04.2017 18:35;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:34:56.078;12423;HTTP Request;200;OK;Grupa wątków 1-1;text;true;;347;238;4;4;http://frontanddisp-kishin.rhcloud.com/search;12423;1;0;0;181
+20.04.2017 18:35;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:34;28773;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;28773;1;1;0;160
+20.04.2017 18:35;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:35:02.004;16594;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;229;4;4;http://frontanddisp-kishin.rhcloud.com/search;16594;1;1;0;164
+20.04.2017 18:35;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:35;19139;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;263;4;4;http://frontanddisp-kishin.rhcloud.com/search;19139;1;1;0;163
+20.04.2017 18:35;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:35;16397;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;266;4;4;http://frontanddisp-kishin.rhcloud.com/search;16397;1;1;0;161
+20.04.2017 18:35;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:35;15380;HTTP Request;200;OK;Grupa wątków 1-3;text;true;;364;229;4;4;http://frontanddisp-kishin.rhcloud.com/search;15380;1;0;0;164
+20.04.2017 18:35;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:35;16513;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;260;4;4;http://frontanddisp-kishin.rhcloud.com/search;16513;1;1;0;159
+20.04.2017 18:35;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:35;16968;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;245;4;4;http://frontanddisp-kishin.rhcloud.com/search;16968;1;1;0;178
+20.04.2017 18:35;16358;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;255;4;4;http://frontanddisp-kishin.rhcloud.com/search;16358;1;1;0;165
+20.04.2017 18:35;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:35;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:35;16616;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;242;4;4;http://frontanddisp-kishin.rhcloud.com/search;16616;1;1;0;157
+20.04.2017 18:35;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:35;15741;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;254;4;4;http://frontanddisp-kishin.rhcloud.com/search;15741;1;1;0;158
+20.04.2017 18:35;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:35;11255;HTTP Request;200;OK;Grupa wątków 1-2;text;true;;326;232;4;4;http://frontanddisp-kishin.rhcloud.com/search;11255;1;0;0;163
+20.04.2017 18:35;10436;HTTP Request;500;Internal Server Error;Grupa wątków 1-1;text;false;;276;265;4;4;http://frontanddisp-kishin.rhcloud.com/search;10436;1;1;0;163
+20.04.2017 18:35;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:35;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:35;10184;HTTP Request;500;Internal Server Error;Grupa wątków 1-3;text;false;;276;255;4;4;http://frontanddisp-kishin.rhcloud.com/search;10184;1;1;0;165
+20.04.2017 18:35;2210;HTTP Request;500;Internal Server Error;Grupa wątków 1-1;text;false;;276;249;4;4;http://frontanddisp-kishin.rhcloud.com/search;2210;1;1;0;158
+20.04.2017 18:35;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:35;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:35;9971;HTTP Request;500;Internal Server Error;Grupa wątków 1-4;text;false;;276;246;4;4;http://frontanddisp-kishin.rhcloud.com/search;9971;1;1;0;158
+20.04.2017 18:36;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:35;9725;HTTP Request;500;Internal Server Error;Grupa wątków 1-2;text;false;;276;247;4;4;http://frontanddisp-kishin.rhcloud.com/search;9725;1;1;0;157
+20.04.2017 18:36;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:35;10523;HTTP Request;200;OK;Grupa wątków 1-3;text;true;;322;245;4;4;http://frontanddisp-kishin.rhcloud.com/search;10523;1;0;0;183
+2017/04/20 18:36:09.065;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:36;8592;HTTP Request;200;OK;Grupa wątków 1-4;text;true;;328;232;4;4;http://frontanddisp-kishin.rhcloud.com/search;8592;1;0;0;159
+20.04.2017 18:36;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:35;16156;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;236;4;4;http://frontanddisp-kishin.rhcloud.com/search;16156;1;1;0;157
+2017/04/20 18:36:15.062;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:36;14710;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;263;4;4;http://frontanddisp-kishin.rhcloud.com/search;14710;1;1;0;157
+20.04.2017 18:36;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:36:10.065;14332;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;14332;1;1;0;158
+20.04.2017 18:36;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:36;15283;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;250;4;4;http://frontanddisp-kishin.rhcloud.com/search;15283;1;1;0;172
+20.04.2017 18:36;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:36:16.063;14998;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;14998;1;1;0;158
+2017/04/20 18:36:31.062;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:36;17428;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;17428;1;1;0;175
+2017/04/20 18:36:32.062;7518;HTTP Request;500;Internal Server Error;Grupa wątków 1-1;text;false;;276;249;4;4;http://frontanddisp-kishin.rhcloud.com/search;7518;1;1;0;157
+20.04.2017 18:36;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:36;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:36;18327;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;262;4;4;http://frontanddisp-kishin.rhcloud.com/search;18327;1;1;0;159
+20.04.2017 18:36;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:36;16544;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;258;4;4;http://frontanddisp-kishin.rhcloud.com/search;16544;1;1;0;158
+20.04.2017 18:36;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:36;12810;HTTP Request;200;OK;Grupa wątków 1-1;text;true;;346;241;4;4;http://frontanddisp-kishin.rhcloud.com/search;12810;1;0;0;159
+20.04.2017 18:36;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:36;14126;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;233;4;4;http://frontanddisp-kishin.rhcloud.com/search;14126;1;1;0;161
+20.04.2017 18:36;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:36;16339;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;268;4;4;http://frontanddisp-kishin.rhcloud.com/search;16339;1;1;0;166
+2017/04/20 18:37:01.065;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:36;16162;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;262;4;4;http://frontanddisp-kishin.rhcloud.com/search;16162;1;1;0;159
+20.04.2017 18:37;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:36;13497;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;262;4;4;http://frontanddisp-kishin.rhcloud.com/search;13497;1;1;0;159
+20.04.2017 18:37;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:36;16511;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;232;4;4;http://frontanddisp-kishin.rhcloud.com/search;16511;1;1;0;165
+20.04.2017 18:37;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:37:02.066;14424;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;251;4;4;http://frontanddisp-kishin.rhcloud.com/search;14424;1;1;0;178
+20.04.2017 18:37;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:37;15333;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;15333;1;1;0;173
+20.04.2017 18:37;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:37;14503;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;244;4;4;http://frontanddisp-kishin.rhcloud.com/search;14503;1;1;0;170
+20.04.2017 18:37;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:37;13667;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;258;4;4;http://frontanddisp-kishin.rhcloud.com/search;13667;1;1;0;163
+20.04.2017 18:37;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:37;14145;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;255;4;4;http://frontanddisp-kishin.rhcloud.com/search;14145;1;1;0;175
+20.04.2017 18:37;9904;HTTP Request;500;Internal Server Error;Grupa wątków 1-4;text;false;;276;244;4;4;http://frontanddisp-kishin.rhcloud.com/search;9904;1;1;0;159
+20.04.2017 18:37;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:37;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:37;10387;HTTP Request;200;OK;Grupa wątków 1-1;text;true;;361;234;4;4;http://frontanddisp-kishin.rhcloud.com/search;10387;1;0;0;159
+20.04.2017 18:37;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:37;17064;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;258;4;4;http://frontanddisp-kishin.rhcloud.com/search;17064;1;1;0;163
+20.04.2017 18:37;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:37;19889;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;243;4;4;http://frontanddisp-kishin.rhcloud.com/search;19889;1;1;0;179
+20.04.2017 18:37;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:37;21247;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;252;4;4;http://frontanddisp-kishin.rhcloud.com/search;21247;1;1;0;169
+20.04.2017 18:37;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:37;20408;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;20408;1;1;0;159
+20.04.2017 18:37;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:37;18214;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;243;4;4;http://frontanddisp-kishin.rhcloud.com/search;18214;1;1;0;159
+20.04.2017 18:38;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:37;12250;HTTP Request;200;OK;Grupa wątków 1-4;text;true;;322;230;4;4;http://frontanddisp-kishin.rhcloud.com/search;12250;1;0;0;159
+20.04.2017 18:37;13620;HTTP Request;500;Internal Server Error;Grupa wątków 1-3;text;false;;276;278;4;4;http://frontanddisp-kishin.rhcloud.com/search;13620;1;1;0;160
+20.04.2017 18:38;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:38;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:37;19688;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;244;4;4;http://frontanddisp-kishin.rhcloud.com/search;19688;1;1;0;247
+20.04.2017 18:38;12245;HTTP Request;500;Internal Server Error;Grupa wątków 1-2;text;false;;276;238;4;4;http://frontanddisp-kishin.rhcloud.com/search;12245;1;1;0;179
+20.04.2017 18:38;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:38;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:38;14031;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;270;4;4;http://frontanddisp-kishin.rhcloud.com/search;14031;1;1;0;158
+20.04.2017 18:38;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:38;15608;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;15608;1;1;0;157
+20.04.2017 18:38;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:38;14868;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;244;4;4;http://frontanddisp-kishin.rhcloud.com/search;14868;1;1;0;158
+20.04.2017 18:38;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:38;16253;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;251;4;4;http://frontanddisp-kishin.rhcloud.com/search;16253;1;1;0;162
+20.04.2017 18:38;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:38;12763;HTTP Request;200;OK;Grupa wątków 1-3;text;true;;318;239;4;4;http://frontanddisp-kishin.rhcloud.com/search;12763;1;0;0;162
+20.04.2017 18:38;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:38;23218;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;257;4;4;http://frontanddisp-kishin.rhcloud.com/search;23218;1;1;0;157
+20.04.2017 18:38;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:38;17537;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;17537;1;1;0;158
+20.04.2017 18:38;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:38;17247;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;257;4;4;http://frontanddisp-kishin.rhcloud.com/search;17247;1;1;0;185
+20.04.2017 18:38;18554;HTTP Request;500;Internal Server Error;Grupa wątków 1-2;text;false;;276;262;4;4;http://frontanddisp-kishin.rhcloud.com/search;18554;1;1;0;158
+20.04.2017 18:38;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:38;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:38;18598;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;242;4;4;http://frontanddisp-kishin.rhcloud.com/search;18598;1;1;0;174
+20.04.2017 18:39;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:38;16916;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;250;4;4;http://frontanddisp-kishin.rhcloud.com/search;16916;1;1;0;157
+20.04.2017 18:39;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:38;24605;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;263;4;4;http://frontanddisp-kishin.rhcloud.com/search;24605;1;1;0;157
+20.04.2017 18:39;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:38;21876;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;246;4;4;http://frontanddisp-kishin.rhcloud.com/search;21876;1;1;0;159
+2017/04/20 18:39:17.075;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:39;14052;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;231;4;4;http://frontanddisp-kishin.rhcloud.com/search;14052;1;1;0;160
+20.04.2017 18:39;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:39;19369;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;257;4;4;http://frontanddisp-kishin.rhcloud.com/search;19369;1;1;0;185
+20.04.2017 18:39;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:39:18.074;19107;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;19107;1;1;0;162
+20.04.2017 18:39;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:39;15167;HTTP Request;200;OK;Grupa wątków 1-3;text;true;;365;236;4;4;http://frontanddisp-kishin.rhcloud.com/search;15167;1;0;0;158
+20.04.2017 18:39;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:39;29974;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;247;4;4;http://frontanddisp-kishin.rhcloud.com/search;29974;1;1;0;158
+20.04.2017 18:39;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:39;15116;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;262;4;4;http://frontanddisp-kishin.rhcloud.com/search;15116;1;1;0;159
+20.04.2017 18:39;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:39;15562;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;15562;1;1;0;160
+20.04.2017 18:39;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:39;16831;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;257;4;4;http://frontanddisp-kishin.rhcloud.com/search;16831;1;1;0;175
+20.04.2017 18:40;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:39;17089;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;259;4;4;http://frontanddisp-kishin.rhcloud.com/search;17089;1;1;0;158
+20.04.2017 18:40;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:39;12425;HTTP Request;200;OK;Grupa wątków 1-2;text;true;;324;246;4;4;http://frontanddisp-kishin.rhcloud.com/search;12425;1;0;0;162
+20.04.2017 18:40;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:39;30336;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;259;4;4;http://frontanddisp-kishin.rhcloud.com/search;30336;1;1;0;158
+20.04.2017 18:40;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:40;16993;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;244;4;4;http://frontanddisp-kishin.rhcloud.com/search;16993;1;1;0;163
+20.04.2017 18:40;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:40;17357;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;259;4;4;http://frontanddisp-kishin.rhcloud.com/search;17357;1;1;0;164
+20.04.2017 18:40;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:40;17653;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;262;4;4;http://frontanddisp-kishin.rhcloud.com/search;17653;1;1;0;178
+20.04.2017 18:40;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:40;11819;HTTP Request;200;OK;Grupa wątków 1-3;text;true;;304;239;4;4;http://frontanddisp-kishin.rhcloud.com/search;11819;1;0;0;191
+20.04.2017 18:40;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:40;8790;HTTP Request;200;OK;Grupa wątków 1-3;text;true;;327;230;4;4;http://frontanddisp-kishin.rhcloud.com/search;8790;1;0;0;158
+20.04.2017 18:40;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:40;17677;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;268;4;4;http://frontanddisp-kishin.rhcloud.com/search;17677;1;1;0;159
+2017/04/20 18:40:39.057;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:40;15658;HTTP Request;500;Internal Server Error;Grupa wątków 1-1;text;false;;276;257;4;4;http://frontanddisp-kishin.rhcloud.com/search;15658;1;1;0;159
+20.04.2017 18:40;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:40;15421;HTTP Request;200;OK;Grupa wątków 1-2;text;true;;342;237;4;4;http://frontanddisp-kishin.rhcloud.com/search;15421;1;0;0;159
+20.04.2017 18:40;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:40:40.057;9365;HTTP Request;200;OK;Grupa wątków 1-4;text;true;;338;241;4;4;http://frontanddisp-kishin.rhcloud.com/search;9365;1;0;0;158
+20.04.2017 18:40;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:40;15435;HTTP Request;200;OK;Grupa wątków 1-3;text;true;;373;243;4;4;http://frontanddisp-kishin.rhcloud.com/search;15435;1;0;0;158
+20.04.2017 18:40;10471;HTTP Request;500;Internal Server Error;Grupa wątków 1-2;text;false;;276;254;4;4;http://frontanddisp-kishin.rhcloud.com/search;10470;1;1;0;168
+20.04.2017 18:40;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:40;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:40;15227;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;259;4;4;http://frontanddisp-kishin.rhcloud.com/search;15227;1;1;0;157
+20.04.2017 18:40;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:40;9392;HTTP Request;200;OK;Grupa wątków 1-3;text;true;;368;239;4;4;http://frontanddisp-kishin.rhcloud.com/search;9392;1;0;0;157
+20.04.2017 18:40;14511;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;14511;1;1;0;160
+20.04.2017 18:41;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:41;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:40;11326;HTTP Request;200;OK;Grupa wątków 1-1;text;true;;330;242;4;4;http://frontanddisp-kishin.rhcloud.com/search;11326;1;0;0;159
+2017/04/20 18:41:09.031;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:40;18720;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;257;4;4;http://frontanddisp-kishin.rhcloud.com/search;18720;1;1;0;158
+20.04.2017 18:41;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:41;14704;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;251;4;4;http://frontanddisp-kishin.rhcloud.com/search;14704;1;1;0;171
+20.04.2017 18:41;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:41;16563;HTTP Request;200;OK;Grupa wątków 1-4;text;true;;310;236;4;4;http://frontanddisp-kishin.rhcloud.com/search;16563;1;0;0;158
+20.04.2017 18:41;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:41:10.032;16041;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;264;4;4;http://frontanddisp-kishin.rhcloud.com/search;16041;1;1;0;159
+2017/04/20 18:41:26.073;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:41;15764;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;15764;1;1;0;158
+20.04.2017 18:41;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:41;17849;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;17849;1;1;0;181
+20.04.2017 18:41;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:41:27.074;16173;HTTP Request;200;OK;Grupa wątków 1-1;text;true;;320;232;4;4;http://frontanddisp-kishin.rhcloud.com/search;16173;1;0;0;158
+20.04.2017 18:41;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:41;22304;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;264;4;4;http://frontanddisp-kishin.rhcloud.com/search;22304;1;1;0;173
+20.04.2017 18:41;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:41;20323;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;239;4;4;http://frontanddisp-kishin.rhcloud.com/search;20323;1;1;0;156
+20.04.2017 18:41;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:41;13218;HTTP Request;500;Internal Server Error;Grupa wątków 1-3;text;false;;276;242;4;4;http://frontanddisp-kishin.rhcloud.com/search;13218;1;1;0;156
+20.04.2017 18:41;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:41;14343;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;14343;1;1;0;166
+20.04.2017 18:41;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:41;13596;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;240;4;4;http://frontanddisp-kishin.rhcloud.com/search;13596;1;1;0;173
+20.04.2017 18:42;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:41;9556;HTTP Request;500;Internal Server Error;Grupa wątków 1-2;text;false;;276;267;4;4;http://frontanddisp-kishin.rhcloud.com/search;9556;1;1;0;164
+2017/04/20 18:42:02.082;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:41;9256;HTTP Request;500;Internal Server Error;Grupa wątków 1-1;text;false;;276;250;4;4;http://frontanddisp-kishin.rhcloud.com/search;9256;1;1;0;157
+20.04.2017 18:42;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:42:03.082;9285;HTTP Request;200;OK;Grupa wątków 1-2;text;true;;361;232;4;4;http://frontanddisp-kishin.rhcloud.com/search;9285;1;0;0;169
+20.04.2017 18:42;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:41;20387;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;267;4;4;http://frontanddisp-kishin.rhcloud.com/search;20387;1;1;0;157
+20.04.2017 18:42;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:42;15929;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;233;4;4;http://frontanddisp-kishin.rhcloud.com/search;15929;1;1;0;159
+20.04.2017 18:42;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:42;13737;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;234;4;4;http://frontanddisp-kishin.rhcloud.com/search;13737;1;1;0;171
+20.04.2017 18:42;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:42;14424;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;14424;1;1;0;158
+20.04.2017 18:42;13333;HTTP Request;200;OK;Grupa wątków 1-3;text;true;;314;241;4;4;http://frontanddisp-kishin.rhcloud.com/search;13333;1;0;0;158
+20.04.2017 18:42;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:42;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:42;15419;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;257;4;4;http://frontanddisp-kishin.rhcloud.com/search;15419;1;1;0;157
+20.04.2017 18:42;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:42;11192;HTTP Request;200;OK;Grupa wątków 1-1;text;true;;337;244;4;4;http://frontanddisp-kishin.rhcloud.com/search;11191;1;0;0;180
+20.04.2017 18:42;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:42;16782;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;241;4;4;http://frontanddisp-kishin.rhcloud.com/search;16782;1;1;0;168
+20.04.2017 18:42;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:42;18075;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;232;4;4;http://frontanddisp-kishin.rhcloud.com/search;18075;1;1;0;158
+20.04.2017 18:42;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:42;21364;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;244;4;4;http://frontanddisp-kishin.rhcloud.com/search;21364;1;1;0;156
+20.04.2017 18:42;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:42;23726;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;260;4;4;http://frontanddisp-kishin.rhcloud.com/search;23726;1;1;0;162
+20.04.2017 18:43;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:42;20003;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;260;4;4;http://frontanddisp-kishin.rhcloud.com/search;20003;1;1;0;158
+20.04.2017 18:43;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:42;18961;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;235;4;4;http://frontanddisp-kishin.rhcloud.com/search;18961;1;1;0;159
+20.04.2017 18:43;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:42;14128;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;279;4;4;http://frontanddisp-kishin.rhcloud.com/search;14128;1;1;0;163
+20.04.2017 18:43;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:43;14356;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;241;4;4;http://frontanddisp-kishin.rhcloud.com/search;14356;1;1;0;166
+20.04.2017 18:43;8963;HTTP Request;500;Internal Server Error;Grupa wątków 1-2;text;false;;276;242;4;4;http://frontanddisp-kishin.rhcloud.com/search;8963;1;1;0;159
+20.04.2017 18:43;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:43;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:43;12019;HTTP Request;200;OK;Grupa wątków 1-3;text;true;;337;240;4;4;http://frontanddisp-kishin.rhcloud.com/search;12019;1;0;0;158
+20.04.2017 18:43;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:43;10159;HTTP Request;200;OK;Grupa wątków 1-4;text;true;;359;235;4;4;http://frontanddisp-kishin.rhcloud.com/search;10159;1;0;0;164
+20.04.2017 18:43;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:43;13686;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;13686;1;1;0;160
+20.04.2017 18:43;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:43;15646;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;291;4;4;http://frontanddisp-kishin.rhcloud.com/search;15646;1;1;0;157
+20.04.2017 18:43;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:43;12194;HTTP Request;200;OK;Grupa wątków 1-3;text;true;;317;236;4;4;http://frontanddisp-kishin.rhcloud.com/search;12194;1;0;0;156
+20.04.2017 18:43;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:43;14598;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;270;4;4;http://frontanddisp-kishin.rhcloud.com/search;14598;1;1;0;161
+2017/04/20 18:43:38.006;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:43;9106;HTTP Request;200;OK;Grupa wątków 1-1;text;true;;323;232;4;4;http://frontanddisp-kishin.rhcloud.com/search;9106;1;0;0;158
+20.04.2017 18:43;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:43;17025;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;258;4;4;http://frontanddisp-kishin.rhcloud.com/search;17025;1;1;0;214
+20.04.2017 18:43;5643;HTTP Request;500;Internal Server Error;Grupa wątków 1-1;text;false;;276;251;4;4;http://frontanddisp-kishin.rhcloud.com/search;5643;1;1;0;158
+20.04.2017 18:43;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:43;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:43;16201;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;240;4;4;http://frontanddisp-kishin.rhcloud.com/search;16201;1;1;0;158
+2017/04/20 18:43:51.054;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:43:39.007;16069;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;259;4;4;http://frontanddisp-kishin.rhcloud.com/search;16069;1;1;0;155
+2017/04/20 18:43:55.075;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:43:52.054;7997;HTTP Request;500;Internal Server Error;Grupa wątków 1-3;text;false;;276;228;4;4;http://frontanddisp-kishin.rhcloud.com/search;7997;1;1;0;165
+2017/04/20 18:44:00.051;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:43;14023;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;242;4;4;http://frontanddisp-kishin.rhcloud.com/search;14023;1;1;0;158
+20.04.2017 18:44;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:43;16384;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;16384;1;1;0;158
+20.04.2017 18:44;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:43:56.076;13707;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;251;4;4;http://frontanddisp-kishin.rhcloud.com/search;13707;1;1;0;157
+20.04.2017 18:44;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:44:01.052;19413;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;264;4;4;http://frontanddisp-kishin.rhcloud.com/search;19413;1;1;0;171
+20.04.2017 18:44;12830;HTTP Request;500;Internal Server Error;Grupa wątków 1-2;text;false;;276;254;4;4;http://frontanddisp-kishin.rhcloud.com/search;12830;1;1;0;163
+20.04.2017 18:44;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:44;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:44;19861;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;19861;1;1;0;162
+20.04.2017 18:44;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:44;19999;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;254;4;4;http://frontanddisp-kishin.rhcloud.com/search;19999;1;1;0;173
+20.04.2017 18:44;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:44;11012;HTTP Request;200;OK;Grupa wątków 1-2;text;true;;339;235;4;4;http://frontanddisp-kishin.rhcloud.com/search;11012;1;0;0;161
+20.04.2017 18:44;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:44;20930;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;260;4;4;http://frontanddisp-kishin.rhcloud.com/search;20930;1;1;0;158
+20.04.2017 18:44;9082;HTTP Request;500;Internal Server Error;Grupa wątków 1-2;text;false;;276;247;4;4;http://frontanddisp-kishin.rhcloud.com/search;9082;1;1;0;158
+20.04.2017 18:44;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:44;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:44;19792;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;259;4;4;http://frontanddisp-kishin.rhcloud.com/search;19792;1;1;0;162
+20.04.2017 18:44;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:44;17314;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;262;4;4;http://frontanddisp-kishin.rhcloud.com/search;17314;1;1;0;156
+20.04.2017 18:44;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:44;16774;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;238;4;4;http://frontanddisp-kishin.rhcloud.com/search;16774;1;1;0;156
+20.04.2017 18:45;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:44;21385;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;286;4;4;http://frontanddisp-kishin.rhcloud.com/search;21385;1;1;0;183
+20.04.2017 18:45;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:44;18564;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;18564;1;1;0;176
+20.04.2017 18:45;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:44;23664;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;263;4;4;http://frontanddisp-kishin.rhcloud.com/search;23664;1;1;0;156
+20.04.2017 18:45;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:45;15923;HTTP Request;200;OK;Grupa wątków 1-2;text;true;;345;241;4;4;http://frontanddisp-kishin.rhcloud.com/search;15923;1;0;0;156
+20.04.2017 18:45;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:45;17407;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;258;4;4;http://frontanddisp-kishin.rhcloud.com/search;17407;1;1;0;159
+20.04.2017 18:45;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:45;13907;HTTP Request;200;OK;Grupa wątków 1-1;text;true;;322;247;4;4;http://frontanddisp-kishin.rhcloud.com/search;13907;1;0;0;167
+20.04.2017 18:45;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:45;20127;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;239;4;4;http://frontanddisp-kishin.rhcloud.com/search;20127;1;1;0;172
+20.04.2017 18:45;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:45;15419;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;266;4;4;http://frontanddisp-kishin.rhcloud.com/search;15419;1;1;0;162
+20.04.2017 18:45;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:45;8233;HTTP Request;200;OK;Grupa wątków 1-1;text;true;;311;230;4;4;http://frontanddisp-kishin.rhcloud.com/search;8233;1;0;0;159
+20.04.2017 18:45;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:45;15162;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;251;4;4;http://frontanddisp-kishin.rhcloud.com/search;15162;1;1;0;165
+20.04.2017 18:45;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:45;12065;HTTP Request;200;OK;Grupa wątków 1-4;text;true;;316;231;4;4;http://frontanddisp-kishin.rhcloud.com/search;12065;1;0;0;158
+20.04.2017 18:45;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:45;10315;HTTP Request;200;OK;Grupa wątków 1-2;text;true;;320;235;4;4;http://frontanddisp-kishin.rhcloud.com/search;10315;1;0;0;157
+20.04.2017 18:45;9315;HTTP Request;500;Internal Server Error;Grupa wątków 1-1;text;false;;276;252;4;4;http://frontanddisp-kishin.rhcloud.com/search;9315;1;1;0;157
+2017/04/20 18:45:45.001;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:45:45.061;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:45:46.062;6476;HTTP Request;200;OK;Grupa wątków 1-1;text;true;;327;240;4;4;http://frontanddisp-kishin.rhcloud.com/search;6476;1;0;0;165
+20.04.2017 18:45;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:45;14123;HTTP Request;200;OK;Grupa wątków 1-3;text;true;;356;249;4;4;http://frontanddisp-kishin.rhcloud.com/search;14123;1;0;0;160
+20.04.2017 18:45;10621;HTTP Request;500;Internal Server Error;Grupa wątków 1-4;text;false;;276;255;4;4;http://frontanddisp-kishin.rhcloud.com/search;10621;1;1;0;175
+20.04.2017 18:45;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:45;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:45:46.001;17264;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;262;4;4;http://frontanddisp-kishin.rhcloud.com/search;17264;1;1;0;158
+20.04.2017 18:46;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:45;10775;HTTP Request;200;OK;Grupa wątków 1-4;text;true;;328;233;4;4;http://frontanddisp-kishin.rhcloud.com/search;10775;1;0;0;157
+20.04.2017 18:46;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:45;16079;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;235;4;4;http://frontanddisp-kishin.rhcloud.com/search;16079;1;1;0;180
+20.04.2017 18:46;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:45;15482;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;246;4;4;http://frontanddisp-kishin.rhcloud.com/search;15482;1;1;0;157
+20.04.2017 18:46;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:46;15461;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;255;4;4;http://frontanddisp-kishin.rhcloud.com/search;15461;1;1;0;160
+20.04.2017 18:46;9111;HTTP Request;500;Internal Server Error;Grupa wątków 1-1;text;false;;276;255;4;4;http://frontanddisp-kishin.rhcloud.com/search;9111;1;1;0;156
+20.04.2017 18:46;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:46;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:46;19244;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;19244;1;1;0;156
+20.04.2017 18:46;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:46;17382;HTTP Request;200;OK;Grupa wątków 1-3;text;true;;297;237;4;4;http://frontanddisp-kishin.rhcloud.com/search;17382;1;0;0;160
+20.04.2017 18:46;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:46;13729;HTTP Request;500;Internal Server Error;Grupa wątków 1-1;text;false;;276;243;4;4;http://frontanddisp-kishin.rhcloud.com/search;13729;1;1;0;174
+20.04.2017 18:46;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:46;21602;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;237;4;4;http://frontanddisp-kishin.rhcloud.com/search;21602;1;1;0;178
+20.04.2017 18:46;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:46;19555;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;268;4;4;http://frontanddisp-kishin.rhcloud.com/search;19555;1;1;0;157
+2017/04/20 18:46:47.055;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:46;18703;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;263;4;4;http://frontanddisp-kishin.rhcloud.com/search;18703;1;1;0;169
+2017/04/20 18:46:49.042;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:46;16833;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;248;4;4;http://frontanddisp-kishin.rhcloud.com/search;16833;1;1;0;163
+20.04.2017 18:46;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:46;12331;HTTP Request;200;OK;Grupa wątków 1-2;text;true;;340;245;4;4;http://frontanddisp-kishin.rhcloud.com/search;12331;1;0;0;158
+20.04.2017 18:46;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:46:48.055;10306;HTTP Request;200;OK;Grupa wątków 1-4;text;true;;308;231;4;4;http://frontanddisp-kishin.rhcloud.com/search;10306;1;0;0;157
+20.04.2017 18:46;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:46:50.042;12270;HTTP Request;200;OK;Grupa wątków 1-3;text;true;;316;232;4;4;http://frontanddisp-kishin.rhcloud.com/search;12270;1;0;0;165
+20.04.2017 18:47;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:46;7659;HTTP Request;500;Internal Server Error;Grupa wątków 1-2;text;false;;276;251;4;4;http://frontanddisp-kishin.rhcloud.com/search;7659;1;1;0;159
+20.04.2017 18:47;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:46;10771;HTTP Request;200;OK;Grupa wątków 1-4;text;true;;328;237;4;4;http://frontanddisp-kishin.rhcloud.com/search;10771;1;0;0;184
+20.04.2017 18:47;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:46;17910;HTTP Request;500;Internal Server Error;Grupa wątków 1-1;text;false;;276;247;4;4;http://frontanddisp-kishin.rhcloud.com/search;17910;1;1;0;160
+20.04.2017 18:47;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:47;15471;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;243;4;4;http://frontanddisp-kishin.rhcloud.com/search;15471;1;1;0;162
+20.04.2017 18:47;7020;HTTP Request;500;Internal Server Error;Grupa wątków 1-1;text;false;;276;250;4;4;http://frontanddisp-kishin.rhcloud.com/search;7020;1;1;0;163
+20.04.2017 18:47;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:47;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:47;18086;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;260;4;4;http://frontanddisp-kishin.rhcloud.com/search;18086;1;1;0;161
+20.04.2017 18:47;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:47;13751;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;262;4;4;http://frontanddisp-kishin.rhcloud.com/search;13751;1;1;0;158
+20.04.2017 18:47;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:47;14136;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;265;4;4;http://frontanddisp-kishin.rhcloud.com/search;14136;1;1;0;159
+20.04.2017 18:47;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:47;15948;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;246;4;4;http://frontanddisp-kishin.rhcloud.com/search;15948;1;1;0;157
+20.04.2017 18:47;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:47;2272;HTTP Request;500;Internal Server Error;Grupa wątków 1-1;text;false;;276;248;4;4;http://frontanddisp-kishin.rhcloud.com/search;2272;1;1;0;161
+20.04.2017 18:47;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:47;18400;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;267;4;4;http://frontanddisp-kishin.rhcloud.com/search;18400;1;1;0;163
+20.04.2017 18:47;19892;HTTP Request;500;Internal Server Error;Grupa wątków 1-2;text;false;;276;259;4;4;http://frontanddisp-kishin.rhcloud.com/search;19892;1;1;0;159
+20.04.2017 18:47;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:47;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:47;9275;HTTP Request;500;Internal Server Error;Grupa wątków 1-3;text;false;;276;240;4;4;http://frontanddisp-kishin.rhcloud.com/search;9275;1;1;0;157
+2017/04/20 18:47:46.010;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:47;15295;HTTP Request;200;OK;Grupa wątków 1-1;text;true;;367;239;4;4;http://frontanddisp-kishin.rhcloud.com/search;15295;1;0;0;164
+20.04.2017 18:47;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:47:47.011;9254;HTTP Request;500;Internal Server Error;Grupa wątków 1-3;text;false;;276;255;4;4;http://frontanddisp-kishin.rhcloud.com/search;9254;1;1;0;159
+20.04.2017 18:47;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:47;15056;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;264;4;4;http://frontanddisp-kishin.rhcloud.com/search;15056;1;1;0;182
+20.04.2017 18:48;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:47;16548;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;260;4;4;http://frontanddisp-kishin.rhcloud.com/search;16548;1;1;0;157
+20.04.2017 18:48;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:47;9673;HTTP Request;200;OK;Grupa wątków 1-1;text;true;;317;233;4;4;http://frontanddisp-kishin.rhcloud.com/search;9673;1;0;0;162
+20.04.2017 18:48;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:47;13756;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;259;4;4;http://frontanddisp-kishin.rhcloud.com/search;13756;1;1;0;155
+2017/04/20 18:48:11.023;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:48;16394;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;257;4;4;http://frontanddisp-kishin.rhcloud.com/search;16394;1;1;0;212
+20.04.2017 18:48;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:48;15001;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;262;4;4;http://frontanddisp-kishin.rhcloud.com/search;15001;1;1;0;434
+20.04.2017 18:48;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:48;19966;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;255;4;4;http://frontanddisp-kishin.rhcloud.com/search;19966;1;1;0;252
+20.04.2017 18:48;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:48:12.023;15014;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;246;4;4;http://frontanddisp-kishin.rhcloud.com/search;15014;1;1;0;160
+2017/04/20 18:48:27.037;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:48;16220;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;244;4;4;http://frontanddisp-kishin.rhcloud.com/search;16220;1;1;0;157
+20.04.2017 18:48;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:48;21953;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;259;4;4;http://frontanddisp-kishin.rhcloud.com/search;21953;1;1;0;159
+20.04.2017 18:48;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:48;21029;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;21029;1;1;0;157
+20.04.2017 18:48;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:48:28.038;20878;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;258;4;4;http://frontanddisp-kishin.rhcloud.com/search;20878;1;1;0;157
+20.04.2017 18:48;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:48;17671;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;263;4;4;http://frontanddisp-kishin.rhcloud.com/search;17671;1;1;0;169
+20.04.2017 18:48;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:48;15118;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;259;4;4;http://frontanddisp-kishin.rhcloud.com/search;15118;1;1;0;156
+20.04.2017 18:48;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:48;15136;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;239;4;4;http://frontanddisp-kishin.rhcloud.com/search;15136;1;1;0;170
+20.04.2017 18:48;11128;HTTP Request;500;Internal Server Error;Grupa wątków 1-3;text;false;;276;244;4;4;http://frontanddisp-kishin.rhcloud.com/search;11128;1;1;0;159
+20.04.2017 18:49;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:49:01.045;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:48;15112;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;232;4;4;http://frontanddisp-kishin.rhcloud.com/search;15112;1;1;0;158
+20.04.2017 18:49;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:49;17342;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;259;4;4;http://frontanddisp-kishin.rhcloud.com/search;17342;1;1;0;160
+2017/04/20 18:49:18.027;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:49:02.046;17554;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;269;4;4;http://frontanddisp-kishin.rhcloud.com/search;17554;1;1;0;159
+20.04.2017 18:49;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:49;20334;HTTP Request;500;Internal Server Error;Grupa wątków 1-4;text;false;;276;260;4;4;http://frontanddisp-kishin.rhcloud.com/search;20334;1;1;0;158
+20.04.2017 18:49;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:49:19.027;14242;HTTP Request;200;OK;Grupa wątków 1-1;text;true;;350;257;4;4;http://frontanddisp-kishin.rhcloud.com/search;14242;1;0;0;159
+20.04.2017 18:49;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:49;24540;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;270;4;4;http://frontanddisp-kishin.rhcloud.com/search;24540;1;1;0;216
+20.04.2017 18:49;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:49;18280;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;262;4;4;http://frontanddisp-kishin.rhcloud.com/search;18280;1;1;0;157
+20.04.2017 18:49;15585;HTTP Request;500;Internal Server Error;Grupa wątków 1-4;text;false;;276;272;4;4;http://frontanddisp-kishin.rhcloud.com/search;15585;1;1;0;170
+20.04.2017 18:49;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:49;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:49;8769;HTTP Request;200;OK;Grupa wątków 1-2;text;true;;310;236;4;4;http://frontanddisp-kishin.rhcloud.com/search;8769;1;0;0;165
+2017/04/20 18:49:45.070;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:49;14153;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;246;4;4;http://frontanddisp-kishin.rhcloud.com/search;14153;1;1;0;161
+20.04.2017 18:49;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:49;10423;HTTP Request;200;OK;Grupa wątków 1-3;text;true;;363;238;4;4;http://frontanddisp-kishin.rhcloud.com/search;10423;1;0;0;162
+20.04.2017 18:49;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:49;15515;HTTP Request;200;OK;Grupa wątków 1-4;text;true;;307;243;4;4;http://frontanddisp-kishin.rhcloud.com/search;15515;1;0;0;163
+20.04.2017 18:49;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:49;9256;HTTP Request;500;Internal Server Error;Grupa wątków 1-3;text;false;;276;247;4;4;http://frontanddisp-kishin.rhcloud.com/search;9256;1;1;0;157
+20.04.2017 18:50;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:49;13064;HTTP Request;200;OK;Grupa wątków 1-1;text;true;;345;231;4;4;http://frontanddisp-kishin.rhcloud.com/search;13064;1;0;0;161
+20.04.2017 18:50;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:49:46.070;19637;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;266;4;4;http://frontanddisp-kishin.rhcloud.com/search;19637;1;1;0;161
+20.04.2017 18:50;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:49;13914;HTTP Request;200;OK;Grupa wątków 1-4;text;true;;322;235;4;4;http://frontanddisp-kishin.rhcloud.com/search;13914;1;0;0;156
+20.04.2017 18:50;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:50;17227;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;233;4;4;http://frontanddisp-kishin.rhcloud.com/search;17227;1;1;0;160
+20.04.2017 18:50;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:50;10202;HTTP Request;200;OK;Grupa wątków 1-4;text;true;;342;232;4;4;http://frontanddisp-kishin.rhcloud.com/search;10202;1;0;0;160
+20.04.2017 18:50;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:50;19378;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;19378;1;1;0;160
+20.04.2017 18:50;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:50;18710;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;265;4;4;http://frontanddisp-kishin.rhcloud.com/search;18710;1;1;0;196
+20.04.2017 18:50;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:50;14935;HTTP Request;200;OK;Grupa wątków 1-3;text;true;;323;233;4;4;http://frontanddisp-kishin.rhcloud.com/search;14935;1;0;0;179
+20.04.2017 18:50;12201;HTTP Request;500;Internal Server Error;Grupa wątków 1-4;text;false;;276;267;4;4;http://frontanddisp-kishin.rhcloud.com/search;12201;1;1;0;158
+20.04.2017 18:50;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:50;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:50;18352;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;239;4;4;http://frontanddisp-kishin.rhcloud.com/search;18352;1;1;0;157
+20.04.2017 18:50;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:50;17773;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;264;4;4;http://frontanddisp-kishin.rhcloud.com/search;17773;1;1;0;157
+20.04.2017 18:50;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:50;18719;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;229;4;4;http://frontanddisp-kishin.rhcloud.com/search;18719;1;1;0;156
+20.04.2017 18:50;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:50;19979;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;233;4;4;http://frontanddisp-kishin.rhcloud.com/search;19979;1;1;0;157
+20.04.2017 18:50;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:50;18019;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;18019;1;1;0;160
+20.04.2017 18:51;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:50;25001;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;257;4;4;http://frontanddisp-kishin.rhcloud.com/search;25001;1;1;0;158
+20.04.2017 18:51;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:50;18265;HTTP Request;200;OK;Grupa wątków 1-4;text;true;;326;238;4;4;http://frontanddisp-kishin.rhcloud.com/search;18265;1;0;0;157
+20.04.2017 18:51;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:51;6138;HTTP Request;500;Internal Server Error;Grupa wątków 1-2;text;false;;276;255;4;4;http://frontanddisp-kishin.rhcloud.com/search;6138;1;1;0;156
+20.04.2017 18:51;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:50;23963;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;264;4;4;http://frontanddisp-kishin.rhcloud.com/search;23963;1;1;0;158
+20.04.2017 18:51;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:51;24720;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;267;4;4;http://frontanddisp-kishin.rhcloud.com/search;24720;1;1;0;157
+20.04.2017 18:51;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:51;7572;HTTP Request;500;Internal Server Error;Grupa wątków 1-3;text;false;;276;253;4;4;http://frontanddisp-kishin.rhcloud.com/search;7572;1;1;0;157
+20.04.2017 18:51;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:51;15176;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;260;4;4;http://frontanddisp-kishin.rhcloud.com/search;15176;1;1;0;155
+20.04.2017 18:51;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:51;18105;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;244;4;4;http://frontanddisp-kishin.rhcloud.com/search;18105;1;1;0;160
+20.04.2017 18:51;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:51;9369;HTTP Request;500;Internal Server Error;Grupa wątków 1-3;text;false;;276;273;4;4;http://frontanddisp-kishin.rhcloud.com/search;9369;1;1;0;156
+20.04.2017 18:51;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:51;13895;HTTP Request;200;OK;Grupa wątków 1-4;text;true;;327;229;4;4;http://frontanddisp-kishin.rhcloud.com/search;13895;1;0;0;158
+2017/04/20 18:51:46.040;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:51;20657;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;254;4;4;http://frontanddisp-kishin.rhcloud.com/search;20657;1;1;0;179
+20.04.2017 18:51;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:51;18817;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;246;4;4;http://frontanddisp-kishin.rhcloud.com/search;18817;1;1;0;159
+20.04.2017 18:51;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:51;24107;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;240;4;4;http://frontanddisp-kishin.rhcloud.com/search;24107;1;1;0;163
+20.04.2017 18:51;11953;HTTP Request;500;Internal Server Error;Grupa wątków 1-1;text;false;;276;243;4;4;http://frontanddisp-kishin.rhcloud.com/search;11953;1;1;0;156
+20.04.2017 18:52;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:52;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:51:47.039;18754;HTTP Request;200;OK;Grupa wątków 1-4;text;true;;376;239;4;4;http://frontanddisp-kishin.rhcloud.com/search;18754;1;0;0;159
+20.04.2017 18:52;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:51;17736;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;250;4;4;http://frontanddisp-kishin.rhcloud.com/search;17736;1;1;0;159
+20.04.2017 18:52;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:52;15722;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;263;4;4;http://frontanddisp-kishin.rhcloud.com/search;15722;1;1;0;156
+20.04.2017 18:52;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:52;17406;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;264;4;4;http://frontanddisp-kishin.rhcloud.com/search;17406;1;1;0;155
+20.04.2017 18:52;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:52;17506;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;239;4;4;http://frontanddisp-kishin.rhcloud.com/search;17506;1;1;0;157
+20.04.2017 18:52;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:52;6433;HTTP Request;500;Internal Server Error;Grupa wątków 1-4;text;false;;276;236;4;4;http://frontanddisp-kishin.rhcloud.com/search;6433;1;1;0;158
+20.04.2017 18:52;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:52;16016;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;252;4;4;http://frontanddisp-kishin.rhcloud.com/search;16016;1;1;0;158
+20.04.2017 18:52;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:52;17483;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;230;4;4;http://frontanddisp-kishin.rhcloud.com/search;17483;1;1;0;157
+20.04.2017 18:52;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:52;22514;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;258;4;4;http://frontanddisp-kishin.rhcloud.com/search;22514;1;1;0;158
+20.04.2017 18:52;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:52;10865;HTTP Request;200;OK;Grupa wątków 1-4;text;true;;314;231;4;4;http://frontanddisp-kishin.rhcloud.com/search;10865;1;0;0;203
+20.04.2017 18:52;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:52;14091;HTTP Request;200;OK;Grupa wątków 1-2;text;true;;329;239;4;4;http://frontanddisp-kishin.rhcloud.com/search;14091;1;0;0;155
+20.04.2017 18:52;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:52;10606;HTTP Request;500;Internal Server Error;Grupa wątków 1-3;text;false;;276;248;4;4;http://frontanddisp-kishin.rhcloud.com/search;10606;1;1;0;172
+2017/04/20 18:52:52.023;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:52;14813;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;14813;1;1;0;158
+20.04.2017 18:52;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:52;16591;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;258;4;4;http://frontanddisp-kishin.rhcloud.com/search;16591;1;1;0;159
+20.04.2017 18:53;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:52:53.023;11713;HTTP Request;200;OK;Grupa wątków 1-3;text;true;;307;231;4;4;http://frontanddisp-kishin.rhcloud.com/search;11713;1;0;0;162
+20.04.2017 18:53;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:52;14613;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;262;4;4;http://frontanddisp-kishin.rhcloud.com/search;14613;1;1;0;159
+20.04.2017 18:53;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:52;14062;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;265;4;4;http://frontanddisp-kishin.rhcloud.com/search;14062;1;1;0;158
+20.04.2017 18:53;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:53;5382;HTTP Request;500;Internal Server Error;Grupa wątków 1-2;text;false;;276;238;4;4;http://frontanddisp-kishin.rhcloud.com/search;5382;1;1;0;157
+20.04.2017 18:53;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:53;15465;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;268;4;4;http://frontanddisp-kishin.rhcloud.com/search;15465;1;1;0;157
+20.04.2017 18:53;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:53;14266;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;260;4;4;http://frontanddisp-kishin.rhcloud.com/search;14266;1;1;0;158
+2017/04/20 18:53:20.003;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:53;14374;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;239;4;4;http://frontanddisp-kishin.rhcloud.com/search;14374;1;1;0;157
+20.04.2017 18:53;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:53;9363;HTTP Request;200;OK;Grupa wątków 1-4;text;true;;318;235;4;4;http://frontanddisp-kishin.rhcloud.com/search;9363;1;0;0;157
+2017/04/20 18:53:28.018;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:53;17063;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;258;4;4;http://frontanddisp-kishin.rhcloud.com/search;17063;1;1;0;157
+2017/04/20 18:53:21.004;9609;HTTP Request;500;Internal Server Error;Grupa wątków 1-3;text;false;;276;249;4;4;http://frontanddisp-kishin.rhcloud.com/search;9608;1;1;0;156
+20.04.2017 18:53;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:53;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:53;16743;HTTP Request;200;OK;Grupa wątków 1-1;text;true;;320;243;4;4;http://frontanddisp-kishin.rhcloud.com/search;16743;1;0;0;158
+20.04.2017 18:53;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:53:29.019;17235;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;231;4;4;http://frontanddisp-kishin.rhcloud.com/search;17235;1;1;0;165
+20.04.2017 18:53;15447;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;264;4;4;http://frontanddisp-kishin.rhcloud.com/search;15447;1;1;0;155
+20.04.2017 18:53;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:53:47.061;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:53;18028;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;251;4;4;http://frontanddisp-kishin.rhcloud.com/search;18028;1;1;0;158
+20.04.2017 18:53;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:53;10411;HTTP Request;200;OK;Grupa wątków 1-4;text;true;;325;234;4;4;http://frontanddisp-kishin.rhcloud.com/search;10411;1;0;0;159
+20.04.2017 18:53;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:53;15536;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;263;4;4;http://frontanddisp-kishin.rhcloud.com/search;15536;1;1;0;176
+20.04.2017 18:53;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:53:48.060;14326;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;259;4;4;http://frontanddisp-kishin.rhcloud.com/search;14326;1;1;0;162
+20.04.2017 18:54;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:53;14918;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;259;4;4;http://frontanddisp-kishin.rhcloud.com/search;14918;1;1;0;162
+20.04.2017 18:54;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:53;13387;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;245;4;4;http://frontanddisp-kishin.rhcloud.com/search;13387;1;1;0;159
+2017/04/20 18:54:12.054;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:53;14365;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;14365;1;1;0;159
+20.04.2017 18:54;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:54;14163;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;244;4;4;http://frontanddisp-kishin.rhcloud.com/search;14163;1;1;0;160
+20.04.2017 18:54;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:54;15079;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;15079;1;1;0;159
+20.04.2017 18:54;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:54:13.053;14633;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;268;4;4;http://frontanddisp-kishin.rhcloud.com/search;14633;1;1;0;159
+20.04.2017 18:54;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:54;23458;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;266;4;4;http://frontanddisp-kishin.rhcloud.com/search;23458;1;1;0;160
+20.04.2017 18:54;26696;HTTP Request;500;Internal Server Error;Grupa wątków 1-1;text;false;;276;256;4;4;http://frontanddisp-kishin.rhcloud.com/search;26696;1;1;0;159
+2017/04/20 18:54:42.010;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:54:42.051;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:54;24899;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;260;4;4;http://frontanddisp-kishin.rhcloud.com/search;24899;1;1;0;161
+20.04.2017 18:54;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:54;26229;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;236;4;4;http://frontanddisp-kishin.rhcloud.com/search;26228;1;1;0;156
+20.04.2017 18:54;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:54:43.052;14850;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;260;4;4;http://frontanddisp-kishin.rhcloud.com/search;14850;1;1;0;160
+20.04.2017 18:54;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:54:43.010;16020;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;239;4;4;http://frontanddisp-kishin.rhcloud.com/search;16020;1;1;0;161
+2017/04/20 18:54:59.032;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:54;15512;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;246;4;4;http://frontanddisp-kishin.rhcloud.com/search;15512;1;1;0;180
+20.04.2017 18:55;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:54;17013;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;270;4;4;http://frontanddisp-kishin.rhcloud.com/search;17013;1;1;0;156
+20.04.2017 18:55;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:55:00.032;14440;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;259;4;4;http://frontanddisp-kishin.rhcloud.com/search;14440;1;1;0;156
+20.04.2017 18:55;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:54;17010;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;263;4;4;http://frontanddisp-kishin.rhcloud.com/search;17010;1;1;0;158
+20.04.2017 18:55;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:55;15817;HTTP Request;200;OK;Grupa wątków 1-2;text;true;;334;237;4;4;http://frontanddisp-kishin.rhcloud.com/search;15817;1;0;0;161
+20.04.2017 18:55;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:55;28275;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;259;4;4;http://frontanddisp-kishin.rhcloud.com/search;28275;1;1;0;160
+20.04.2017 18:55;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:55;29922;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;239;4;4;http://frontanddisp-kishin.rhcloud.com/search;29922;1;1;0;158
+20.04.2017 18:55;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:55;28469;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;254;4;4;http://frontanddisp-kishin.rhcloud.com/search;28469;1;1;0;157
+20.04.2017 18:55;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:55;37517;HTTP Request;200;OK;Grupa wątków 1-3;text;true;;310;236;4;4;http://frontanddisp-kishin.rhcloud.com/search;37517;1;0;0;178
+20.04.2017 18:55;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:55;14682;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;264;4;4;http://frontanddisp-kishin.rhcloud.com/search;14682;1;1;0;159
+20.04.2017 18:56;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:55;15270;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;265;4;4;http://frontanddisp-kishin.rhcloud.com/search;15270;1;1;0;157
+20.04.2017 18:56;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:55;15650;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;263;4;4;http://frontanddisp-kishin.rhcloud.com/search;15650;1;1;0;188
+20.04.2017 18:56;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:55;27980;HTTP Request;200;OK;Grupa wątków 1-4;text;true;;317;232;4;4;http://frontanddisp-kishin.rhcloud.com/search;27980;1;0;0;172
+20.04.2017 18:56;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:56;13327;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;258;4;4;http://frontanddisp-kishin.rhcloud.com/search;13327;1;1;0;159
+20.04.2017 18:56;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:56;20415;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;254;4;4;http://frontanddisp-kishin.rhcloud.com/search;20415;1;1;0;157
+20.04.2017 18:56;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:56;39694;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;244;4;4;http://frontanddisp-kishin.rhcloud.com/search;39694;1;1;0;180
+20.04.2017 18:56;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:56;44411;HTTP Request;200;OK;Grupa wątków 1-3;text;true;;324;237;4;4;http://frontanddisp-kishin.rhcloud.com/search;44411;1;0;0;172
+2017/04/20 18:56:55.051;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:56;34724;HTTP Request;500;Internal Server Error;Grupa wątków 1-2;text;false;;276;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;34724;1;1;0;161
+20.04.2017 18:56;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:56;39129;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;248;4;4;http://frontanddisp-kishin.rhcloud.com/search;39129;1;1;0;163
+2017/04/20 18:57:04.066;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:56;17000;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;258;4;4;http://frontanddisp-kishin.rhcloud.com/search;17000;1;1;0;160
+20.04.2017 18:57;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:56:56.051;15084;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;257;4;4;http://frontanddisp-kishin.rhcloud.com/search;15084;1;1;0;210
+20.04.2017 18:56;13752;HTTP Request;500;Internal Server Error;Grupa wątków 1-2;text;false;;276;248;4;4;http://frontanddisp-kishin.rhcloud.com/search;13752;1;1;0;157
+2017/04/20 18:57:05.065;6581;HTTP Request;500;Internal Server Error;Grupa wątków 1-1;text;false;;276;255;4;4;http://frontanddisp-kishin.rhcloud.com/search;6581;1;1;0;156
+20.04.2017 18:57;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:57;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:57;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:57;12881;HTTP Request;500;Internal Server Error;Grupa wątków 1-4;text;false;;276;250;4;4;http://frontanddisp-kishin.rhcloud.com/search;12881;1;1;0;158
+20.04.2017 18:57;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:57;14053;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;268;4;4;http://frontanddisp-kishin.rhcloud.com/search;14052;1;1;0;164
+20.04.2017 18:57;15439;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;240;4;4;http://frontanddisp-kishin.rhcloud.com/search;15439;1;1;0;158
+20.04.2017 18:57;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:57;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:57;20068;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;262;4;4;http://frontanddisp-kishin.rhcloud.com/search;20068;1;1;0;157
+20.04.2017 18:57;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:57;10590;HTTP Request;500;Internal Server Error;Grupa wątków 1-2;text;false;;276;258;4;4;http://frontanddisp-kishin.rhcloud.com/search;10589;1;1;0;172
+20.04.2017 18:57;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:57;14742;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;260;4;4;http://frontanddisp-kishin.rhcloud.com/search;14742;1;1;0;159
+20.04.2017 18:57;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:57;19223;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;251;4;4;http://frontanddisp-kishin.rhcloud.com/search;19223;1;1;0;157
+20.04.2017 18:57;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:57;12478;HTTP Request;500;Internal Server Error;Grupa wątków 1-3;text;false;;276;272;4;4;http://frontanddisp-kishin.rhcloud.com/search;12477;1;1;0;157
+20.04.2017 18:57;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:57;14153;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;259;4;4;http://frontanddisp-kishin.rhcloud.com/search;14153;1;1;0;157
+20.04.2017 18:57;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:57;20983;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;257;4;4;http://frontanddisp-kishin.rhcloud.com/search;20983;1;1;0;159
+20.04.2017 18:57;14569;HTTP Request;500;Internal Server Error;Grupa wątków 1-3;text;false;;276;247;4;4;http://frontanddisp-kishin.rhcloud.com/search;14569;1;1;0;159
+20.04.2017 18:58;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:58;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:57;20101;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;233;4;4;http://frontanddisp-kishin.rhcloud.com/search;20101;1;1;0;158
+20.04.2017 18:58;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:58;15441;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;262;4;4;http://frontanddisp-kishin.rhcloud.com/search;15441;1;1;0;157
+20.04.2017 18:58;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:58;20152;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;268;4;4;http://frontanddisp-kishin.rhcloud.com/search;20152;1;1;0;183
+20.04.2017 18:58;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:58;19521;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;256;4;4;http://frontanddisp-kishin.rhcloud.com/search;19521;1;1;0;158
+20.04.2017 18:58;17415;HTTP Request;500;Internal Server Error;Grupa wątków 1-1;text;false;;276;248;4;4;http://frontanddisp-kishin.rhcloud.com/search;17415;1;1;0;158
+20.04.2017 18:58;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:58;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:58;12004;HTTP Request;500;Internal Server Error;Grupa wątków 1-2;text;false;;276;243;4;4;http://frontanddisp-kishin.rhcloud.com/search;12004;1;1;0;158
+20.04.2017 18:58;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:58;10948;HTTP Request;500;Internal Server Error;Grupa wątków 1-4;text;false;;276;268;4;4;http://frontanddisp-kishin.rhcloud.com/search;10948;1;1;0;1558
+20.04.2017 18:58;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:58;14101;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;244;4;4;http://frontanddisp-kishin.rhcloud.com/search;14101;1;1;0;159
+2017/04/20 18:58:37.061;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:58;16090;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;16090;1;1;0;161
+20.04.2017 18:58;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:58;15907;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;250;4;4;http://frontanddisp-kishin.rhcloud.com/search;15907;1;1;0;162
+20.04.2017 18:58;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:58;16135;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;16135;1;1;0;157
+20.04.2017 18:58;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:58:38.062;15126;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;269;4;4;http://frontanddisp-kishin.rhcloud.com/search;15126;1;1;0;160
+20.04.2017 18:58;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:58;17036;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;230;4;4;http://frontanddisp-kishin.rhcloud.com/search;17036;1;1;0;163
+20.04.2017 18:58;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:58;8299;HTTP Request;500;Internal Server Error;Grupa wątków 1-4;text;false;;276;270;4;4;http://frontanddisp-kishin.rhcloud.com/search;8299;1;1;0;157
+20.04.2017 18:58;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:58;15269;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;15269;1;1;0;160
+20.04.2017 18:59;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:58;8351;HTTP Request;500;Internal Server Error;Grupa wątków 1-3;text;false;;276;265;4;4;http://frontanddisp-kishin.rhcloud.com/search;8351;1;1;0;156
+20.04.2017 18:59;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:58;15034;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;266;4;4;http://frontanddisp-kishin.rhcloud.com/search;15034;1;1;0;156
+20.04.2017 18:59;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:58;14607;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;255;4;4;http://frontanddisp-kishin.rhcloud.com/search;14607;1;1;0;157
+20.04.2017 18:59;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:59;14659;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;14659;1;1;0;178
+20.04.2017 18:59;12280;HTTP Request;500;Internal Server Error;Grupa wątków 1-3;text;false;;276;251;4;4;http://frontanddisp-kishin.rhcloud.com/search;12280;1;1;0;173
+20.04.2017 18:59;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:59;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:59;17982;HTTP Request;200;OK;Grupa wątków 1-1;text;true;;367;230;4;4;http://frontanddisp-kishin.rhcloud.com/search;17982;1;0;0;158
+20.04.2017 18:59;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:59;15554;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;251;4;4;http://frontanddisp-kishin.rhcloud.com/search;15554;1;1;0;156
+2017/04/20 18:59:36.086;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:59;25574;HTTP Request;200;OK;Grupa wątków 1-4;text;true;;329;234;4;4;http://frontanddisp-kishin.rhcloud.com/search;25574;1;0;0;177
+20.04.2017 18:59;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:59;23028;HTTP Request;200;OK;Grupa wątków 1-3;text;true;;333;231;4;4;http://frontanddisp-kishin.rhcloud.com/search;23028;1;0;0;155
+20.04.2017 18:59;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:59;15863;HTTP Request;200;OK;Grupa wątków 1-1;text;false;Test failed: text expected not to contain /None/;266;255;4;4;http://frontanddisp-kishin.rhcloud.com/search;15863;1;1;0;161
+2017/04/20 18:59:45.071;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:59:37.087;17460;HTTP Request;200;OK;Grupa wątków 1-2;text;false;Test failed: text expected not to contain /None/;266;261;4;4;http://frontanddisp-kishin.rhcloud.com/search;17460;1;1;0;163
+20.04.2017 18:59;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:59;14440;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;260;4;4;http://frontanddisp-kishin.rhcloud.com/search;14440;1;1;0;171
+2017/04/20 18:59:59.006;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;4;4;null;0;1;1;0;0
+2017/04/20 18:59:46.071;16785;HTTP Request;200;OK;Grupa wątków 1-1;text;true;;330;230;4;4;http://frontanddisp-kishin.rhcloud.com/search;16785;1;0;0;157
+20.04.2017 19:00;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-1;text;false;;19;0;4;4;null;0;1;1;0;0
+20.04.2017 18:59;32008;HTTP Request;200;OK;Grupa wątków 1-4;text;true;;392;230;3;3;http://frontanddisp-kishin.rhcloud.com/search;32008;1;0;0;161
+20.04.2017 19:00;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;3;3;null;0;1;1;0;0
+2017/04/20 19:00:00.007;15095;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;239;3;3;http://frontanddisp-kishin.rhcloud.com/search;15095;1;1;0;160
+20.04.2017 19:00;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;3;3;null;0;1;1;0;0
+20.04.2017 18:59;23102;HTTP Request;200;OK;Grupa wątków 1-2;text;true;;358;230;3;3;http://frontanddisp-kishin.rhcloud.com/search;23102;1;0;0;168
+20.04.2017 19:00;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;3;3;null;0;1;1;0;0
+20.04.2017 19:00;13700;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;255;3;3;http://frontanddisp-kishin.rhcloud.com/search;13700;1;1;0;187
+20.04.2017 19:00;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;3;3;null;0;1;1;0;0
+20.04.2017 19:00;18546;HTTP Request;200;OK;Grupa wątków 1-3;text;true;;315;231;3;3;http://frontanddisp-kishin.rhcloud.com/search;18546;1;0;0;157
+20.04.2017 19:00;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;3;3;null;0;1;1;0;0
+20.04.2017 19:00;15714;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;284;3;3;http://frontanddisp-kishin.rhcloud.com/search;15713;1;1;0;164
+20.04.2017 19:00;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;3;3;null;0;1;1;0;0
+20.04.2017 19:00;27926;HTTP Request;200;OK;Grupa wątków 1-2;text;true;;382;246;3;3;http://frontanddisp-kishin.rhcloud.com/search;27926;1;0;0;158
+20.04.2017 19:00;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;3;3;null;0;1;1;0;0
+20.04.2017 19:00;21860;HTTP Request;200;OK;Grupa wątków 1-3;text;false;Test failed: text expected not to contain /None/;266;259;3;3;http://frontanddisp-kishin.rhcloud.com/search;21860;1;1;0;157
+20.04.2017 19:00;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-3;text;false;;19;0;3;3;null;0;1;1;0;0
+20.04.2017 19:00;10459;HTTP Request;500;Internal Server Error;Grupa wątków 1-2;text;false;;276;248;2;2;http://frontanddisp-kishin.rhcloud.com/search;10459;1;1;0;166
+2017/04/20 19:00:59.037;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;2;2;null;0;1;1;0;0
+20.04.2017 19:00;16792;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;261;2;2;http://frontanddisp-kishin.rhcloud.com/search;16792;1;1;0;165
+2017/04/20 19:01:03.081;1001;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;2;2;null;0;1;1;0;0
+2017/04/20 19:01:04.082;16501;HTTP Request;200;OK;Grupa wątków 1-4;text;false;Test failed: text expected not to contain /None/;266;259;2;2;http://frontanddisp-kishin.rhcloud.com/search;16501;1;1;0;161
+20.04.2017 19:01;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;2;2;null;0;1;1;0;0
+2017/04/20 19:01:00.037;29475;HTTP Request;200;OK;Grupa wątków 1-2;text;true;;339;229;2;2;http://frontanddisp-kishin.rhcloud.com/search;29475;1;0;0;158
+20.04.2017 19:01;1000;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-2;text;false;;19;0;2;2;null;0;1;1;0;0
+20.04.2017 19:01;25717;HTTP Request;200;OK;Grupa wątków 1-4;text;true;;351;229;1;1;http://frontanddisp-kishin.rhcloud.com/search;25717;1;0;0;182
+20.04.2017 19:01;999;MongoDB Script (DEPRECATED);500;com.mongodb.MongoException: can't find a master;Grupa wątków 1-4;text;false;;19;0;1;1;null;0;1;1;0;0
